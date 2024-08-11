@@ -2,6 +2,8 @@ import express from "express";
 import http from "http";
 import cors from "cors";
 
+import "./db/connection.js";
+
 const app = express();
 
 const PORT = process.env.PORT || 5000;
